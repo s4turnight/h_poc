@@ -1,0 +1,40 @@
+/*
+ * [y] hybris Platform
+ *
+ * Copyright (c) 2000-2013 hybris AG
+ * All rights reserved.
+ *
+ * This software is the confidential and proprietary information of hybris
+ * ("Confidential Information"). You shall not disclose such Confidential
+ * Information and shall use it only in accordance with the terms of the
+ * license agreement you entered into with hybris.
+ * 
+ *  Fucking License
+ */
+package de.hybris.platform.yb2bacceleratorstorefront.forms;
+
+
+/**
+ * Form for Quote Product
+ */
+public class QuoteProductForm
+{
+	private String description;
+
+	/**
+	 * @return the description
+	 */
+	public String getDescription()
+	{
+		return description;
+	}
+
+	/**
+	 * @param description
+	 *           
+	 */
+	public void setDescription(final String description)
+	{
+		this.description = description;
+	}
+}
